@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1EEB8C2-4454-4C4A-874A-BEB556CA05E4}|Movimiento Parabolico\\Movimiento Parabolico.csproj|c:\\users\\jazmi\\onedrive\\desktop\\inge. sistemas\\8\\simulacion\\movimiento parabolico\\movimiento parabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1EEB8C2-4454-4C4A-874A-BEB556CA05E4}|Movimiento Parabolico\\Movimiento Parabolico.csproj|solutionrelative:movimiento parabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1EEB8C2-4454-4C4A-874A-BEB556CA05E4}|Movimiento Parabolico\\Movimiento Parabolico.csproj|C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\movimiento parabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F1EEB8C2-4454-4C4A-874A-BEB556CA05E4}|Movimiento Parabolico\\Movimiento Parabolico.csproj|solutionrelative:movimiento parabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1EEB8C2-4454-4C4A-874A-BEB556CA05E4}|Movimiento Parabolico\\Movimiento Parabolico.csproj|c:\\users\\jazmi\\onedrive\\desktop\\inge. sistemas\\8\\simulacion\\movimiento parabolico\\movimiento parabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1EEB8C2-4454-4C4A-874A-BEB556CA05E4}|Movimiento Parabolico\\Movimiento Parabolico.csproj|solutionrelative:movimiento parabolico\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,16 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\Movimiento Parabolico\\Form1.cs",
               "RelativeDocumentMoniker": "Movimiento Parabolico\\Form1.cs",
-              "ToolTip": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\Movimiento Parabolico\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Movimiento Parabolico\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\Movimiento Parabolico\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Movimiento Parabolico\\Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T15:08:58.06Z",
               "IsPinned": true,
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\Movimiento Parabolico\\Form1.cs",
               "RelativeDocumentMoniker": "Movimiento Parabolico\\Form1.cs",
-              "ToolTip": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\Movimiento Parabolico\\Form1.cs",
-              "RelativeToolTip": "Movimiento Parabolico\\Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAADMAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jazmi\\OneDrive\\Desktop\\INGE. SISTEMAS\\8\\Simulacion\\Movimiento Parabolico\\Movimiento Parabolico\\Form1.cs*",
+              "RelativeToolTip": "Movimiento Parabolico\\Form1.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAC0AAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T02:59:54.783Z",
               "IsPinned": true,
