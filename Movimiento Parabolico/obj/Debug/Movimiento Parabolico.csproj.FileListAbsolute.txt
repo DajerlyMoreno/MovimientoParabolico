@@ -1,0 +1,10 @@
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.AssemblyReference.cache
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento_Parabolico.Form1.resources
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento_Parabolico.Properties.Resources.resources
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.GenerateResource.cache
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.CoreCompileInputs.cache
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\bin\Debug\Movimiento Parabolico.exe.config
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\bin\Debug\Movimiento Parabolico.exe
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\bin\Debug\Movimiento Parabolico.pdb
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.exe
+C:\Users\jazmi\OneDrive\Desktop\INGE. SISTEMAS\8\Simulacion\Movimiento Parabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.pdb
