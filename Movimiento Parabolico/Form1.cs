@@ -33,6 +33,13 @@ namespace Movimiento_Parabolico
             if (y < 0)
             {
                 timer1.Stop();
+
+                textTV.Text = "";
+                textAlturaMax.Text = "";
+                textDesplazamiento.Text = "";
+
+                resultados();
+
                 return;
             }
 
@@ -80,8 +87,36 @@ namespace Movimiento_Parabolico
             masa.Location = new Point(Convert.ToInt32(x0 * escala), Math.Min(altura - Convert.ToInt32(y0 * escala) - offsetY, areaSimulacion.Height - masa.Height));
 
             timer1.Enabled = true;
+
         }
 
+        private void resultados()
+        {
+            double alturaMaxima = double.MinValue;
+            double desplazamientoHorizontal = 0;
+            string tiempoVuelo = "";
+
+            for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            {
+                DataGridViewRow fila = dataGridView1.Rows[i];
+
+                if (fila.IsNewRow || fila.Cells[0].Value == null || fila.Cells[1].Value == null || fila.Cells[2].Value == null)
+                    continue;
+
+                double xVal = Convert.ToDouble(fila.Cells[1].Value);
+                double yVal = Convert.ToDouble(fila.Cells[2].Value);
+
+                if (yVal > alturaMaxima)
+                    alturaMaxima = yVal;
+
+                desplazamientoHorizontal = xVal;
+                tiempoVuelo = fila.Cells[0].Value.ToString();
+            }
+
+            textTV.Text = tiempoVuelo + " s";
+            textAlturaMax.Text = alturaMaxima.ToString("0.00") + " m";
+            textDesplazamiento.Text = desplazamientoHorizontal.ToString("0.00") + " m";
+        }
     }
 }
 

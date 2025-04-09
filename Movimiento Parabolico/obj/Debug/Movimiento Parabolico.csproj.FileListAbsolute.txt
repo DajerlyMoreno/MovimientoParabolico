@@ -18,3 +18,13 @@ C:\Users\Lenovo\Documents\Universidad\Simulacion\MovimientoParabolico\Movimiento
 C:\Users\Lenovo\Documents\Universidad\Simulacion\MovimientoParabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\Documents\Universidad\Simulacion\MovimientoParabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.exe
 C:\Users\Lenovo\Documents\Universidad\Simulacion\MovimientoParabolico\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.pdb
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\bin\Debug\Movimiento Parabolico.exe.config
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\bin\Debug\Movimiento Parabolico.exe
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\bin\Debug\Movimiento Parabolico.pdb
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.AssemblyReference.cache
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento_Parabolico.Form1.resources
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento_Parabolico.Properties.Resources.resources
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.GenerateResource.cache
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.csproj.CoreCompileInputs.cache
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.exe
+C:\Users\ROBINSON\Documents\UPTC\Simulación de Computadores\Taller2\Movimiento Parabolico\obj\Debug\Movimiento Parabolico.pdb

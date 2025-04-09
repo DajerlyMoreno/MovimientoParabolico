@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textv0 = new System.Windows.Forms.TextBox();
             this.btnSimular = new System.Windows.Forms.Button();
@@ -58,6 +58,12 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.masa = new System.Windows.Forms.PictureBox();
             this.areaSimulacion = new System.Windows.Forms.PictureBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textTV = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textAlturaMax = new System.Windows.Forms.TextBox();
+            this.textDesplazamiento = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa)).BeginInit();
@@ -183,15 +189,15 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
             this.chart1.Location = new System.Drawing.Point(416, 38);
             this.chart1.Margin = new System.Windows.Forms.Padding(2);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Name = "Trayectoria";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Name = "Trayectoria";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(370, 225);
             this.chart1.TabIndex = 8;
             this.chart1.Text = "chart1";
@@ -330,11 +336,78 @@
             this.areaSimulacion.TabIndex = 20;
             this.areaSimulacion.TabStop = false;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(43, 370);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(172, 24);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Tiempo de Vuelo";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // textTV
+            // 
+            this.textTV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textTV.Location = new System.Drawing.Point(219, 369);
+            this.textTV.Margin = new System.Windows.Forms.Padding(2);
+            this.textTV.Name = "textTV";
+            this.textTV.Size = new System.Drawing.Size(76, 26);
+            this.textTV.TabIndex = 22;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(610, 369);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(158, 24);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "Desplazamiento";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(353, 370);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(116, 24);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Altura MAX";
+            // 
+            // textAlturaMax
+            // 
+            this.textAlturaMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textAlturaMax.Location = new System.Drawing.Point(473, 368);
+            this.textAlturaMax.Margin = new System.Windows.Forms.Padding(2);
+            this.textAlturaMax.Name = "textAlturaMax";
+            this.textAlturaMax.Size = new System.Drawing.Size(76, 26);
+            this.textAlturaMax.TabIndex = 25;
+            // 
+            // textDesplazamiento
+            // 
+            this.textDesplazamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textDesplazamiento.Location = new System.Drawing.Point(772, 368);
+            this.textDesplazamiento.Margin = new System.Windows.Forms.Padding(2);
+            this.textDesplazamiento.Name = "textDesplazamiento";
+            this.textDesplazamiento.Size = new System.Drawing.Size(76, 26);
+            this.textDesplazamiento.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 605);
+            this.Controls.Add(this.textDesplazamiento);
+            this.Controls.Add(this.textAlturaMax);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.textTV);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.masa);
             this.Controls.Add(this.areaSimulacion);
             this.Controls.Add(this.label10);
@@ -395,6 +468,12 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox masa;
         private System.Windows.Forms.PictureBox areaSimulacion;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textTV;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textAlturaMax;
+        private System.Windows.Forms.TextBox textDesplazamiento;
     }
 }
 
